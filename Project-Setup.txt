@@ -1,0 +1,52 @@
+
+
+Backend/Nodejs Deployment
+1.	Edit .env file with your MongoDB details
+2.	Run below commands one by one
+	npm install
+	node app.js
+
+--> Server should run on port 3000
+
+
+
+
+------------------------------------------------------------------------------------------
+
+
+Frontend/Angular Deployment
+
+	A.	Run below commands in the frontend project root folder
+		npm i -g nx
+		npm install
+
+	B.	User Panel deployment: Run below command
+	
+		nx serve ngshop 
+		
+		open http://localhost:4200/ in browser for user panel
+		
+		
+	C.	Admin Panel deployment
+		nx serve admin –port 5000
+		
+		
+		
+		
+		
+		
+STEPS FOR TESTING:
+
+1. Login to admin panel
+ email : admin@grocers.com
+ pass:   Gpass123
+ 
+2. Add categories.
+
+3. Add Products
+
+
+4. Go to user panel
+
+
+
